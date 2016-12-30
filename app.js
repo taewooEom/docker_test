@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get(['/', '/index.html'], function (req, res) {
-	res.send('Hello Docker');
+	res.send('Hello Test');
 });
 
-app.listen(100);
+app.listen(80);
